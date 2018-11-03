@@ -1,0 +1,19 @@
+{
+  "name": "webapi",
+  "version": "1.0.0",
+  "description": "api de spoilers",
+  "main": "src/app.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/itzmatheus/nodejs-api-1.git"
+  },
+  "author": "matheus leite",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/itzmatheus/nodejs-api-1/issues"
+  },
+  "homepage": "https://github.com/itzmatheus/nodejs-api-1#readme"
+}
