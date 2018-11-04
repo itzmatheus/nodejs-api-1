@@ -1,15 +1,17 @@
 const Sequelize = require("sequelize");
 
-const enviroment = process.env.NODE_ENV || 'dev';
+const environment = process.env.NODE_ENV || "development";
 
-const config = require('../config/config.js')[enviroment];
+const config = require("../config/config.js")[environment];
 
 const sequelize = new Sequelize(
-    config.database.name,
-    config.database.user,
-    config.database.password,
-    {
-        host: config.database.host,
-        dialect: config.database.dialect
-    }
+  config.database.name,
+  config.database.user,
+  config.database.password,
+  {
+    host: config.database.host,
+    dialect: config.database.dialect
+  }
 );
+
+module.exports = sequelize;
